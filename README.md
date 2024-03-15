@@ -7,15 +7,17 @@ It uses PyPDF2 library to extract text from PDFs and regular expressions to pars
 
 - Python 3.x
 - Scrapy
-- Requests
+- io
 - PyPDF2
+- re
+- json
 
 #Install dependencies using:
 
-pip install scrapy requests pypdf2
+pip install scrapy pypdf2
 
 #Run the spider using the following command:
 
-scrapy crawl pdf_spider -o output.json
+python pdf_spider.py
 
 
